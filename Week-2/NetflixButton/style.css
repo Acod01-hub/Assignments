@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, sans-serif;
+}
+
+button{
+    background: #E50914;
+    color: white;
+    padding: 14px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(229, 9, 20, 0.4);
+}
+
+button:hover{
+    background: #b20710;
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: scale(0.95);
+}
