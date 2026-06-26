@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anupama Bharti — Portfolio</title>
+<meta name="description" content="Portfolio of Anupama Bharti, B.Tech CSE student at IGDTUW — projects, skills and contact.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header" id="top">
+    <div class="header-inner">
+        <a href="#top" class="brand">AB<span class="brand-dot">.</span></a>
+
+        <input type="checkbox" id="navToggle" class="nav-toggle">
+        <label for="navToggle" class="nav-burger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </label>
+
+        <nav class="nav-links" aria-label="Section navigation">
+            <a href="#about" data-index="01">About</a>
+            <a href="#skills" data-index="02">Skills</a>
+            <a href="#projects" data-index="03">Projects</a>
+            <a href="#activities" data-index="04">Activities</a>
+            <a href="#contact" data-index="05">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-inner">
+        <p class="stamp">Status: Second Year · Active</p>
+        <h1 class="hero-name">Anupama Bharti</h1>
+        <p class="hero-role">B.Tech Student · CSE-AI · Future Engineer</p>
+        <p class="hero-tagline">Exploring AI, development and real-world problem solving</p>
+    </div>
+</section>
+
+<main>
+
+    <section id="about" class="section">
+        <p class="eyebrow">Entry 01</p>
+        <h2>About Me</h2>
+        <p class="lead">A second-year student at IGDTUW exploring AI, development, and real-world problem solving. Currently pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence, Class of 2029. I enjoy learning new technologies, building efficient software, and working on projects with real-world impact.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <p class="eyebrow">Entry 02</p>
+        <h2>Skills</h2>
+
+        <div class="skill-group">
+            <p class="skill-label">Programming</p>
+            <ul class="chip-list">
+                <li class="chip">Python</li>
+                <li class="chip">JavaScript</li>
+                <li class="chip">R Programming</li>
+            </ul>
+        </div>
+
+        <div class="skill-group">
+            <p class="skill-label">Tools &amp; Platforms</p>
+            <ul class="chip-list">
+                <li class="chip">Unity 3D</li>
+                <li class="chip">Canva</li>
+                <li class="chip">Microsoft Excel</li>
+            </ul>
+        </div>
+
+        <div class="skill-group">
+            <p class="skill-label">Professional Skills</p>
+            <ul class="chip-list">
+                <li class="chip">Problem Solving</li>
+                <li class="chip">Project Management</li>
+                <li class="chip">Communication</li>
+                <li class="chip">Time Management</li>
+                <li class="chip">Data Analysis</li>
+                <li class="chip">Business Intelligence</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <p class="eyebrow">Entry 03</p>
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <p class="project-code">Build / 01</p>
+                <h3>Elderly Care Platform</h3>
+                <p>Accessibility focused healthcare platform.</p>
+                <p class="project-tag">Healthcare · Accessibility</p>
+            </article>
+
+            <article class="project-card">
+                <p class="project-code">Build / 02</p>
+                <h3>Logbook of Legends</h3>
+                <p>One Piece inspired interactive app.</p>
+                <p class="project-tag">Anime · Interactive App</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="activities" class="section">
+        <p class="eyebrow">Entry 04</p>
+        <h2>Activities</h2>
+        <p class="lead">A few of the things that fill the margins outside coursework.</p>
+
+        <div class="activity-grid">
+            <div class="activity-card">
+                <h3>Hackathons &amp; Coding Events</h3>
+                <p>Building fast, breaking things, learning faster under the clock.</p>
+            </div>
+            <div class="activity-card">
+                <h3>Clubs &amp; Communities</h3>
+                <p>Staying plugged into the tech and campus circles at IGDTUW.</p>
+            </div>
+            <div class="activity-card">
+                <h3>Workshops &amp; Bootcamps</h3>
+                <p>Picking up tools and frameworks that don't fit in a syllabus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <p class="eyebrow">Entry 05</p>
+        <h2>Contact</h2>
+        <p class="lead">Have a project, an idea, or just want to say hi? Drop a message below.</p>
+
+        <form id="contactForm" class="contact-form">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+
+            <button type="submit">Send message</button>
+        </form>
+
+        <p id="formSuccess" class="form-success" hidden>✦ Thank you! Your message has been noted — We will get back to you soon.</p>
+
+        <p class="form-note">Want to mail? Reach out directly at <a href="mailto:anupama033btcseai25@igdtuw.ac.in">anupama033btcseai25@igdtuw.ac.in</a></p>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
